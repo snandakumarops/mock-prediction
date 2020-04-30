@@ -108,8 +108,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.slf4j:jcl-over-slf4j:1.7.25" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.quarkus:quarkus-test-common:0.20.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.quarkus:quarkus-core-deployment:0.20.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: commons-beanutils:commons-beanutils:1.9.3" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: commons-collections:commons-collections:3.2.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.jboss.invocation:jboss-invocation:1.5.2.Final" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.jboss.classfilewriter:jboss-classfilewriter:1.2.4.Final" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.quarkus.gizmo:gizmo:1.0.0.Alpha6" level="project" />
@@ -119,7 +117,7 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.ow2.asm:asm:7.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.quarkus:quarkus-builder:0.20.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.quarkus:quarkus-jsonp-deployment:0.20.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.jboss:jandex:2.1.1.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss:jandex:2.1.1.Final" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-api:5.5.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apiguardian:apiguardian-api:1.1.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.opentest4j:opentest4j:1.2.0" level="project" />
@@ -217,5 +215,14 @@
     <orderEntry type="library" name="Maven: org.uberfire:uberfire-maven-support:1.1.0.Final" level="project" />
     <orderEntry type="library" name="Maven: org.drools:drools-core:7.1.0.Final" level="project" />
     <orderEntry type="library" name="Maven: org.kie:kie-internal:7.1.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus:quarkus-smallrye-openapi:0.20.0" level="project" />
+    <orderEntry type="library" name="Maven: io.smallrye:smallrye-open-api:1.1.3" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.microprofile.openapi:microprofile-openapi-api:1.1.2" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.9.9" level="project" />
+    <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.23" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.shrinkwrap:shrinkwrap-api:1.2.6" level="project" />
+    <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils:1.9.3" level="project" />
+    <orderEntry type="library" name="Maven: commons-collections:commons-collections:3.2.2" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus:quarkus-swagger-ui:0.20.0" level="project" />
   </component>
 </module>

@@ -61,193 +61,7 @@ Method deploy_0 : V
     ASTORE 4
     ALOAD 4
     CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.IIOImageProvider"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
     LDC (String) "org.jboss.resteasy.plugins.providers.sse.SseEventOutputProvider"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.sse.SseEventProvider"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.multipart.MultipartFormDataReader"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.client.jaxrs.internal.CompletionStageRxInvokerProvider"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.multipart.MultipartWriter"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.multipart.MultipartFormAnnotationReader"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.jackson.ResteasyJackson2Provider"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.jaxb.JAXBElementProvider"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.multipart.MultipartReader"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.multipart.MultipartRelatedWriter"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.multipart.XopWithMultipartRelatedReader"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.context.ContextFeature"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.jaxb.JAXBXmlTypeProvider"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.multipart.MultipartFormDataWriter"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.multipart.MapMultipartFormDataWriter"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.MultiValuedParamConverterProvider"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.jsonp.JsonArrayProvider"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.DefaultBooleanWriter"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.StringTextStar"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.jaxb.MapProvider"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
-    LDC (String) "io.quarkus.resteasy.runtime.RolesFilterRegistrar"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.jsonp.JsonStructureProvider"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.ReaderProvider"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.multipart.MultipartRelatedReader"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.jaxb.CollectionProvider"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.DataSourceProvider"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.JaxrsFormProvider"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.FileRangeWriter"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.multipart.MapMultipartFormDataReader"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.jsonp.JsonValueProvider"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.jaxb.XmlJAXBContextFinder"
     // Method descriptor: (Ljava/lang/Object;)Z
     INVOKEINTERFACE java/util/Collection#add
     POP
@@ -259,7 +73,7 @@ Method deploy_0 : V
     POP
     ALOAD 4
     CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.DefaultTextPlain"
+    LDC (String) "org.jboss.resteasy.client.jaxrs.internal.CompletionStageRxInvokerProvider"
     // Method descriptor: (Ljava/lang/Object;)Z
     INVOKEINTERFACE java/util/Collection#add
     POP
@@ -283,18 +97,6 @@ Method deploy_0 : V
     POP
     ALOAD 4
     CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.FormUrlEncodedProvider"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.multipart.XopWithMultipartRelatedWriter"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
     LDC (String) "org.jboss.resteasy.plugins.providers.CompletionStageProvider"
     // Method descriptor: (Ljava/lang/Object;)Z
     INVOKEINTERFACE java/util/Collection#add
@@ -307,31 +109,13 @@ Method deploy_0 : V
     POP
     ALOAD 4
     CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.DefaultNumberWriter"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
     LDC (String) "org.jboss.resteasy.plugins.providers.jsonb.JsonBindingProvider"
     // Method descriptor: (Ljava/lang/Object;)Z
     INVOKEINTERFACE java/util/Collection#add
     POP
     ALOAD 4
     CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.SourceProvider"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.jaxb.JAXBXmlRootElementProvider"
-    // Method descriptor: (Ljava/lang/Object;)Z
-    INVOKEINTERFACE java/util/Collection#add
-    POP
-    ALOAD 4
-    CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.multipart.MimeMultipartProvider"
+    LDC (String) "org.jboss.resteasy.plugins.providers.jackson.ResteasyJackson2Provider"
     // Method descriptor: (Ljava/lang/Object;)Z
     INVOKEINTERFACE java/util/Collection#add
     POP
@@ -343,13 +127,13 @@ Method deploy_0 : V
     POP
     ALOAD 4
     CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.multipart.MultipartFormAnnotationWriter"
+    LDC (String) "org.jboss.resteasy.plugins.providers.FileProvider"
     // Method descriptor: (Ljava/lang/Object;)Z
     INVOKEINTERFACE java/util/Collection#add
     POP
     ALOAD 4
     CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.FileProvider"
+    LDC (String) "org.jboss.resteasy.context.ContextFeature"
     // Method descriptor: (Ljava/lang/Object;)Z
     INVOKEINTERFACE java/util/Collection#add
     POP
@@ -367,13 +151,13 @@ Method deploy_0 : V
     POP
     ALOAD 4
     CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.DocumentProvider"
+    LDC (String) "org.jboss.resteasy.plugins.providers.MultiValuedParamConverterProvider"
     // Method descriptor: (Ljava/lang/Object;)Z
     INVOKEINTERFACE java/util/Collection#add
     POP
     ALOAD 4
     CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.multipart.ListMultipartWriter"
+    LDC (String) "org.jboss.resteasy.plugins.providers.jsonp.JsonArrayProvider"
     // Method descriptor: (Ljava/lang/Object;)Z
     INVOKEINTERFACE java/util/Collection#add
     POP
@@ -385,7 +169,7 @@ Method deploy_0 : V
     POP
     ALOAD 4
     CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.jaxb.JAXBXmlSeeAlsoProvider"
+    LDC (String) "org.jboss.resteasy.plugins.providers.StringTextStar"
     // Method descriptor: (Ljava/lang/Object;)Z
     INVOKEINTERFACE java/util/Collection#add
     POP
@@ -397,7 +181,25 @@ Method deploy_0 : V
     POP
     ALOAD 4
     CHECKCAST java/util/Collection
+    LDC (String) "org.jboss.resteasy.plugins.providers.jsonp.JsonStructureProvider"
+    // Method descriptor: (Ljava/lang/Object;)Z
+    INVOKEINTERFACE java/util/Collection#add
+    POP
+    ALOAD 4
+    CHECKCAST java/util/Collection
     LDC (String) "org.jboss.resteasy.plugins.providers.StreamingOutputProvider"
+    // Method descriptor: (Ljava/lang/Object;)Z
+    INVOKEINTERFACE java/util/Collection#add
+    POP
+    ALOAD 4
+    CHECKCAST java/util/Collection
+    LDC (String) "io.quarkus.resteasy.runtime.RolesFilterRegistrar"
+    // Method descriptor: (Ljava/lang/Object;)Z
+    INVOKEINTERFACE java/util/Collection#add
+    POP
+    ALOAD 4
+    CHECKCAST java/util/Collection
+    LDC (String) "org.jboss.resteasy.plugins.providers.ReaderProvider"
     // Method descriptor: (Ljava/lang/Object;)Z
     INVOKEINTERFACE java/util/Collection#add
     POP
@@ -409,13 +211,25 @@ Method deploy_0 : V
     POP
     ALOAD 4
     CHECKCAST java/util/Collection
-    LDC (String) "org.jboss.resteasy.plugins.providers.multipart.ListMultipartReader"
+    LDC (String) "org.jboss.resteasy.plugins.providers.DataSourceProvider"
+    // Method descriptor: (Ljava/lang/Object;)Z
+    INVOKEINTERFACE java/util/Collection#add
+    POP
+    ALOAD 4
+    CHECKCAST java/util/Collection
+    LDC (String) "org.jboss.resteasy.plugins.providers.FileRangeWriter"
     // Method descriptor: (Ljava/lang/Object;)Z
     INVOKEINTERFACE java/util/Collection#add
     POP
     ALOAD 4
     CHECKCAST java/util/Collection
     LDC (String) "org.jboss.resteasy.plugins.providers.InputStreamProvider"
+    // Method descriptor: (Ljava/lang/Object;)Z
+    INVOKEINTERFACE java/util/Collection#add
+    POP
+    ALOAD 4
+    CHECKCAST java/util/Collection
+    LDC (String) "org.jboss.resteasy.plugins.providers.jsonp.JsonValueProvider"
     // Method descriptor: (Ljava/lang/Object;)Z
     INVOKEINTERFACE java/util/Collection#add
     POP
@@ -461,29 +275,29 @@ Method deploy_0 : V
     LDC (Integer) 0
     ALOAD 7
     AASTORE
-    LDC (Boolean) true
+    LDC (Boolean) false
     // Method descriptor: (Z)Ljava/lang/Boolean;
     INVOKESTATIC java/lang/Boolean#valueOf
-    ASTORE 8
+    ASTORE 10
     ALOAD 2
     LDC (Integer) 2
     AALOAD
-    ASTORE 9
+    ASTORE 8
     ALOAD 2
     LDC (Integer) 4
     AALOAD
-    ASTORE 10
+    ASTORE 9
     ALOAD 2
     LDC (Integer) 0
     AALOAD
     CHECKCAST io/quarkus/restclient/runtime/RestClientRecorder
-    ALOAD 8
+    ALOAD 10
     CHECKCAST java/lang/Boolean
     // Method descriptor: ()Z
     INVOKEVIRTUAL java/lang/Boolean#booleanValue
-    ALOAD 9
+    ALOAD 8
     CHECKCAST java/util/Set
-    ALOAD 10
+    ALOAD 9
     CHECKCAST java/util/Set
     // Method descriptor: (ZLjava/util/Set;Ljava/util/Set;)V
     INVOKEVIRTUAL io/quarkus/restclient/runtime/RestClientRecorder#initializeResteasyProviderFactory

@@ -1,4 +1,4 @@
-// Class: io/quarkus/deployment/steps/LifecycleEventsBuildStep$startupEvent18
+// Class: io/quarkus/deployment/steps/ConfigBuildStep$validateConfigProperties14
 //     Access =  public synthetic
 //     Extends: java/lang/Object
 //     Implements:
@@ -26,14 +26,14 @@ Method deploy : V
     arg 1 = Lio/quarkus/runtime/StartupContext;
 ) {
     ** label1
-    LDC (Integer) 1
+    LDC (Integer) 3
     ANEWARRAY java/lang/Object
     ASTORE 2
     ALOAD 0
     ALOAD 1
     ALOAD 2
     // Method descriptor: (Lio/quarkus/runtime/StartupContext;[Ljava/lang/Object;)V
-    INVOKEVIRTUAL io/quarkus/deployment/steps/LifecycleEventsBuildStep$startupEvent18#deploy_0
+    INVOKEVIRTUAL io/quarkus/deployment/steps/ConfigBuildStep$validateConfigProperties14#deploy_0
     RETURN
     ** label2
     
@@ -46,35 +46,44 @@ Method deploy_0 : V
     arg 2 = [Ljava/lang/Object;
 ) {
     ** label1
-    NEW io/quarkus/arc/runtime/ArcRecorder
+    NEW java/util/HashMap
     DUP
     // Method descriptor: ()V
-    INVOKESPECIAL io/quarkus/arc/runtime/ArcRecorder#<init>
+    INVOKESPECIAL java/util/HashMap#<init>
     ASTORE 3
     ALOAD 2
-    LDC (Integer) 0
+    LDC (Integer) 1
     ALOAD 3
     AASTORE
-    ALOAD 1
-    LDC (String) "io.quarkus.runtime.ShutdownContext"
-    // Method descriptor: (Ljava/lang/String;)Ljava/lang/Object;
-    INVOKEVIRTUAL io/quarkus/runtime/StartupContext#getValue
-    ASTORE 5
-    ALOAD 1
-    LDC (String) "proxykey19"
-    // Method descriptor: (Ljava/lang/String;)Ljava/lang/Object;
-    INVOKEVIRTUAL io/quarkus/runtime/StartupContext#getValue
+    ALOAD 2
+    LDC (Integer) 1
+    AALOAD
     ASTORE 4
+    ALOAD 2
+    LDC (Integer) 2
+    ALOAD 4
+    AASTORE
+    NEW io/quarkus/arc/runtime/ConfigRecorder
+    DUP
+    // Method descriptor: ()V
+    INVOKESPECIAL io/quarkus/arc/runtime/ConfigRecorder#<init>
+    ASTORE 5
+    ALOAD 2
+    LDC (Integer) 0
+    ALOAD 5
+    AASTORE
+    ALOAD 2
+    LDC (Integer) 2
+    AALOAD
+    ASTORE 6
     ALOAD 2
     LDC (Integer) 0
     AALOAD
-    CHECKCAST io/quarkus/arc/runtime/ArcRecorder
-    ALOAD 5
-    CHECKCAST io/quarkus/runtime/ShutdownContext
-    ALOAD 4
-    CHECKCAST io/quarkus/arc/runtime/BeanContainer
-    // Method descriptor: (Lio/quarkus/runtime/ShutdownContext;Lio/quarkus/arc/runtime/BeanContainer;)V
-    INVOKEVIRTUAL io/quarkus/arc/runtime/ArcRecorder#handleLifecycleEvents
+    CHECKCAST io/quarkus/arc/runtime/ConfigRecorder
+    ALOAD 6
+    CHECKCAST java/util/Map
+    // Method descriptor: (Ljava/util/Map;)V
+    INVOKEVIRTUAL io/quarkus/arc/runtime/ConfigRecorder#validateConfigProperties
     RETURN
     ** label2
     

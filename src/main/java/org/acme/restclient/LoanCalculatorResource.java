@@ -22,7 +22,7 @@ public class LoanCalculatorResource {
         String predictionArr[] = {"LOW","MEDIUM","HIGH"};
         String predictonRes = predictionArr[new Random().nextInt(2)];
 
-        return "{\"prediction\":"+predictonRes+"}";
+        return "{\"prediction\":"+"\""+predictonRes+"\"}";
     }
 
 

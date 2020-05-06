@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e583fbfe-585f-43b9-945d-ebc2d2ca5309" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/acme/restclient/LoanCalculatorResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/acme/restclient/LoanCalculatorResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/acme/restclient/LoanCalculatorResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/acme/restclient/LoanCalculatorResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wiring-devmode/io/quarkus/arc/runtime/LifecycleEventRunner_Bean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-devmode/io/quarkus/arc/runtime/LifecycleEventRunner_Bean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wiring-devmode/io/quarkus/resteasy/jackson/runtime/ObjectMapperProducer_ClientProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-devmode/io/quarkus/resteasy/jackson/runtime/ObjectMapperProducer_ClientProxy.class" afterDir="false" />
-    </list>
+    <list default="true" id="e583fbfe-585f-43b9-945d-ebc2d2ca5309" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -135,10 +130,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-17" />
+    <option name="y" value="27" />
     <option name="width" value="1440" />
-    <option name="height" value="833" />
+    <option name="height" value="832" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -343,7 +339,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="833" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="832" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
@@ -355,7 +351,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Run" order="6" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.3292517" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.44972825" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.45034012" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
       <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2832618" />
